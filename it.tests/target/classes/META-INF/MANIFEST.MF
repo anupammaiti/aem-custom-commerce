@@ -1,5 +1,5 @@
 Manifest-Version: 1.0
-Bnd-LastModified: 1476444012037
+Bnd-LastModified: 1476446431355
 Build-Jdk: 1.8.0_73
 Built-By: anthonyross
 Bundle-Description: Bundles for Integration Tests for ecomm62
