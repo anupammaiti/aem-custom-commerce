@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+  <classpathentry kind="src" path="src/main/content/META-INF" output="target/vault-work/META-INF" excluding="**/*.java"/>
+  <classpathentry kind="src" path="src/main/content/jcr_root" excluding="**/.vlt|**/.vltignore|**/.gitignore|**/*.iml|**/.classpath|**/.project|**/.settings|**/.DS_Store|**/target/**|**/pom.xml|**/*.java"/>
+  <classpathentry kind="output" path="target/classes"/>
+  <classpathentry kind="var" path="M2_REPO/javax/jcr/jcr/2.0/jcr-2.0.jar" sourcepath="M2_REPO/javax/jcr/jcr/2.0/jcr-2.0-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/javax/servlet/servlet-api/2.4/servlet-api-2.4.jar" sourcepath="M2_REPO/javax/servlet/servlet-api/2.4/servlet-api-2.4-sources.jar"/>
+  <classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6"/>
+  <classpathentry kind="src" path="/ecomm62.core"/>
+  <classpathentry kind="var" path="M2_REPO/com/adobe/aem/aem-api/6.0.0.1/aem-api-6.0.0.1.jar"/>
+  <classpathentry kind="var" path="M2_REPO/com/day/cq/wcm/cq-wcm-taglib/5.7.4/cq-wcm-taglib-5.7.4.jar"/>
+</classpath>
