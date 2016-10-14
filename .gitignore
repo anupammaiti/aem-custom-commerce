@@ -7,3 +7,9 @@ release.properties
 dependency-reduced-pom.xml
 buildNumber.properties
 .mvn/timing.properties
+core/target
+app/target
+it.tests/target
+ui.apps/target
+ui.content/target
+it.launcher/target

@@ -6,7 +6,7 @@ import org.apache.sling.api.resource.ResourceResolver;
 import com.adobe.cq.commerce.common.AbstractJcrProduct;
 import com.day.cq.wcm.api.Page;
 import com.day.cq.wcm.api.PageManager;
-  
+
 public class TrainingProductImpl extends AbstractJcrProduct {
     public static final String PN_IDENTIFIER = "identifier";
     public static final String PN_PRICE = "price";
@@ -27,7 +27,6 @@ public class TrainingProductImpl extends AbstractJcrProduct {
     }
   
     public String getSKU() {
-        // TODO Auto-generated method stub
-        return "Ask the Expert Demo Product";
+        return "Ask Anthony";
     }
 }

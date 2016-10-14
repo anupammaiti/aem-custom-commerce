@@ -1,5 +1,5 @@
 Manifest-Version: 1.0
-Bnd-LastModified: 1476446427100
+Bnd-LastModified: 1476473433512
 Build-Jdk: 1.8.0_73
 Built-By: anthonyross
 Bundle-Description: Core bundle for ecomm62
@@ -8,18 +8,18 @@ Bundle-Name: ecomm62 - Core
 Bundle-SymbolicName: ecomm62.core
 Bundle-Version: 1.0.0.SNAPSHOT
 Created-By: Apache Maven Bundle Plugin
-Export-Package: org.test.commerceexample.core.commerce;uses:="com.adobe.
- cq.commerce.api,com.adobe.cq.commerce.api.promotion,com.adobe.cq.commer
- ce.common,com.day.cq.wcm.api,org.apache.sling.api,org.apache.sling.api.
- resource,org.osgi.service.component";version="1.0.0",org.test.commercee
- xample.core.filters;uses:="javax.servlet";version="1.0.0",org.test.comm
- erceexample.core.listeners;uses:="org.osgi.service.event";version="1.0.
- 0",org.test.commerceexample.core.models;uses:="javax.annotation,javax.i
- nject,org.apache.sling.api.resource,org.apache.sling.models.annotations
- ";version="1.0.0",org.test.commerceexample.core;version="1.0",org.test.
+Export-Package: org.test.commerceexample.core.commerce;version="1.0.0";u
+ ses:="com.adobe.cq.commerce.api,com.adobe.cq.commerce.api.promotion,com
+ .adobe.cq.commerce.common,com.day.cq.wcm.api,org.apache.sling.api,org.a
+ pache.sling.api.resource,org.osgi.service.component",org.test.commercee
+ xample.core.filters;version="1.0.0";uses:="javax.servlet",org.test.comm
+ erceexample.core.listeners;version="1.0.0";uses:="org.osgi.service.even
+ t",org.test.commerceexample.core.models;version="1.0.0";uses:="javax.an
+ notation,javax.inject,org.apache.sling.api.resource,org.apache.sling.mo
+ dels.annotations",org.test.commerceexample.core;version="1.0",org.test.
  commerceexample.core.schedulers;version="1.0.0",org.test.commerceexampl
- e.core.servlets;uses:="javax.servlet,org.apache.sling.api,org.apache.sl
- ing.api.servlets";version="1.0.0"
+ e.core.servlets;version="1.0.0";uses:="javax.servlet,org.apache.sling.a
+ pi,org.apache.sling.api.servlets"
 Import-Package: javax.annotation;version="0.0.0",com.adobe.cq.commerce.a
  pi;version="[4.0,4.1)",com.adobe.cq.commerce.api.promotion;version="[1.
  2,2)",com.adobe.cq.commerce.common;version="[3.5,4)",com.day.cq.wcm.api
@@ -51,7 +51,7 @@ Require-Capability: osgi.service;effective:=active;filter:="(objectClass
  lass=com.adobe.granite.security.user.UserPropertiesService)",osgi.servi
  ce;effective:=active;filter:="(objectClass=com.adobe.cq.commerce.common
  .CommerceSearchProviderManager)",osgi.ee;filter:="(&(osgi.ee=JavaSE)(ve
- rsion=1.6))"
+ rsion=1.8))"
 Service-Component: OSGI-INF/org.test.commerceexample.core.schedulers.Sim
  pleScheduledTask.xml,OSGI-INF/org.test.commerceexample.core.filters.Log
  gingFilter.xml,OSGI-INF/org.test.commerceexample.core.commerce.SimpleDS
