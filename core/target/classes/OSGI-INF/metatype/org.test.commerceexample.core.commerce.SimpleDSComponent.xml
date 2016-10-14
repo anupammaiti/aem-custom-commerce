@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><metatype:MetaData xmlns:metatype="http://www.osgi.org/xmlns/metatype/v1.0.0" localization="OSGI-INF/metatype/org.test.commerceexample.core.commerce.SimpleDSComponent">
-    <OCD id="org.test.commerceexample.core.commerce.SimpleDSComponent" name="%org.test.commerceexample.core.commerce.SimpleDSComponent.name" description="%org.test.commerceexample.core.commerce.SimpleDSComponent.description"/>
-    <Designate pid="org.test.commerceexample.core.commerce.SimpleDSComponent">
-        <Object ocdref="org.test.commerceexample.core.commerce.SimpleDSComponent"/>
-    </Designate>
-</metatype:MetaData>
