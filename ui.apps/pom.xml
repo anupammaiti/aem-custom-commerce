@@ -42,6 +42,10 @@
         <tag>HEAD</tag>
     </scm-->
 
+    <properties>
+        <install.target>/apps/ecomm62/install</install.target>
+    </properties>
+
     <!-- ====================================================================== -->
     <!-- B U I L D   D E F I N I T I O N                                        -->
     <!-- ====================================================================== -->
@@ -123,7 +127,62 @@
                         <embedded>
                             <groupId>ecomm62</groupId>
                             <artifactId>ecomm62.core</artifactId>
-                            <target>/apps/ecomm62/install</target>
+                            <target>${install.target}</target>
+                        </embedded>
+                        <embedded>
+                            <groupId>ecomm62</groupId>
+                            <artifactId>ecomm62.libs</artifactId>
+                            <target>${install.target}</target>
+                        </embedded>
+                        <embedded>
+                            <groupId>javax.annotation</groupId>
+                            <artifactId>javax.annotation-api</artifactId>
+                            <target>${install.target}</target>
+                        </embedded>
+                        <embedded>
+                            <groupId>javax.money</groupId>
+                            <artifactId>money-api</artifactId>
+                            <target>${install.target}</target>
+                        </embedded>
+                        <embedded>
+                            <groupId>org.javamoney</groupId>
+                            <artifactId>moneta</artifactId>
+                            <target>${install.target}</target>
+                        </embedded>
+                        <embedded>
+                            <groupId>com.fasterxml.jackson.core</groupId>
+                            <artifactId>jackson-core</artifactId>
+                            <target>${install.target}</target>
+                        </embedded>
+                        <embedded>
+                            <groupId>com.fasterxml.jackson.core</groupId>
+                            <artifactId>jackson-databind</artifactId>
+                            <target>${install.target}</target>
+                        </embedded>
+                        <embedded>
+                            <groupId>com.fasterxml.jackson.core</groupId>
+                            <artifactId>jackson-annotations</artifactId>
+                            <target>${install.target}</target>
+                        </embedded>
+                        <embedded>
+                            <groupId>com.fasterxml.jackson.datatype</groupId>
+                            <artifactId>jackson-datatype-jsr310</artifactId>
+                            <target>${install.target}</target>
+                        </embedded>
+                        <embedded>
+                            <groupId>com.fasterxml.jackson.module</groupId>
+                            <artifactId>jackson-module-parameter-names</artifactId>
+                            <target>${install.target}</target>
+                        </embedded>
+                        <embedded>
+                            <groupId>com.neovisionaries</groupId>
+                            <artifactId>nv-i18n</artifactId>
+                            <target>${install.target}</target>
+                        </embedded>
+                        <embedded>
+                            <groupId>org.javassist</groupId>
+                            <artifactId>javassist</artifactId>
+                            <target>${install.target}</target>
                         </embedded>
                     </embeddeds>
                 </configuration>
@@ -202,6 +261,12 @@
         </dependency>
 
         <dependency>
+            <groupId>ecomm62</groupId>
+            <artifactId>ecomm62.libs</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+
+        <dependency>
             <groupId>com.adobe.aem</groupId>
             <artifactId>aem-api</artifactId>
         </dependency>
@@ -220,5 +285,52 @@
             <groupId>com.day.cq.wcm</groupId>
             <artifactId>cq-wcm-taglib</artifactId>
         </dependency>
+
+        <dependency>
+            <groupId>javax.annotation</groupId>
+            <artifactId>javax.annotation-api</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>javax.money</groupId>
+            <artifactId>money-api</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.javamoney</groupId>
+            <artifactId>moneta</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-core</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-databind</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-annotations</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.fasterxml.jackson.datatype</groupId>
+            <artifactId>jackson-datatype-jsr310</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.fasterxml.jackson.module</groupId>
+            <artifactId>jackson-module-parameter-names</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.neovisionaries</groupId>
+            <artifactId>nv-i18n</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.javassist</groupId>
+            <artifactId>javassist</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.google.protobuf</groupId>
+            <artifactId>protobuf-java</artifactId>
+        </dependency>
+
+
     </dependencies>
 </project>
